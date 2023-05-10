@@ -10,7 +10,7 @@ driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install())
 
 # Opening the website on Chrome
 # driver = webdriver.Chrome()
-driver.get("https://food.grab.com/ph/en/restaurants")
+driver.get("https://food.grab.com/sg/en/restaurants")
 
 driver.maximize_window()
 
